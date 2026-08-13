@@ -1,0 +1,22 @@
+.like{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.likeBtn{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: darkgreen;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+
+.likeBtn:hover{
+    opacity: 0.8;
+}

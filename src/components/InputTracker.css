@@ -1,0 +1,18 @@
+.tracker{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.track{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.para{
+    font-family: 16px;
+    font-weight: bold;
+}
