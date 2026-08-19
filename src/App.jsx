@@ -4,6 +4,7 @@ import Counter from './components/Counter';
 import InputTracker from './components/InputTracker';
 import LikeButton from './components/LikeButton';
 import ShowHide from './components/ShowHide';
+import UserProfile from './components/UserProfile/UserProfile';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       {/* <Counter/> */}
       {/* <LikeButton/> */}
       {/* <ShowHide/> */}
-      <InputTracker/>
+      {/* <InputTracker/> */}
+      <UserProfile/>
     </>
   )
 }
