@@ -3,6 +3,7 @@ import './App.css'
 import Counter from './components/Counter';
 import InputTracker from './components/InputTracker';
 import LikeButton from './components/LikeButton';
+import Login from './components/LoginToggle/Login';
 import ProductList from './components/ProductList/ProductList';
 import ShowHide from './components/ShowHide';
 import UserProfile from './components/UserProfile/UserProfile';
@@ -17,7 +18,8 @@ function App() {
       {/* <ShowHide/> */}
       {/* <InputTracker/> */}
       {/* <UserProfile/> */}
-      <ProductList/>
+      {/* <ProductList/> */}
+      <Login/>
     </>
   )
 }
